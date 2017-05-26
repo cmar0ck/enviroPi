@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>EnviroPi Interface v0.1</title>
+</head>
+
+<body>
+
+	<div id="brightness" class="200x160px"></div>
+
+</body>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script src="assets/js/raphael-2.1.4.min.js"></script>
+	<script src="assets/js/justgage.js"></script>
+
+	<script>
+
+	    var g_brightness = new JustGage({
+		id: "brightness",
+		value: 100,
+		min: 0,
+		max: 1000,
+		title: "Brightness"
+	    });
+	   
+	   function doRefresh()
+	    {
+		$.get("/get_data", function (data) {
+
+		    var obj = jQuery.parseJSON(data);
+            	    g_brightness.refresh(obj.Brightness);
+
+		});
+	    }
+
+	    $(function () {
+		setInterval(doRefresh, 3000);
+	    });
+
+	</script>
+
+</html>

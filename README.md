@@ -10,7 +10,7 @@ Displays sensor data in webinterface
 
 
 Self-made enclosure: 
-http://i.imgur.com/NAYDhKk.jpg
+[](http://i.imgur.com/NAYDhKk.jpg)
 
 Growth timelapse (resized):
 http://imgur.com/Z5Wbh4z.gif

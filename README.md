@@ -7,10 +7,7 @@ Key features:
 Writes to a database and captures timelapse of plant growth. 
 Displays sensor data in webinterface
 
+ 
+[self-made enclosure](http://i.imgur.com/NAYDhKk.jpg)
 
-
-Self-made enclosure: 
-[Self-made enclosure: ](http://i.imgur.com/NAYDhKk.jpg)
-
-Growth timelapse (resized):
-http://imgur.com/Z5Wbh4z.gif
+[growth timelapse (resized)](http://imgur.com/Z5Wbh4z.gif)

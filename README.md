@@ -4,7 +4,7 @@ Project to monitor plant growth with a Raspberry Pi, using Pimoroni's EnviroPhat
 
 **Key features:**
 
-Writes to a database and captures timelapse of plant growth. 
+Writes sensor data to a database and captures timelapse of plant growth. 
 Displays sensor data in webinterface.
 
 **Examples:**

@@ -1,6 +1,6 @@
 # enviroPi
 
-Project to monitor (and improve) plant growth with a Raspberry Pi, using Pimoroni's EnviroPhat and optional components like a hygrometer (to measure soil humidity and to know when it's time to water the plants) and a Raspberry Pi Camera. 
+Project to monitor (and improve) plant growth with a Raspberry Pi, using Pimoroni's [Enviro Phat](https://shop.pimoroni.com/products/enviro-phat) and optional components like a hygrometer (to measure soil humidity and to know when it's time to water the plants) and a Raspberry Pi Camera. 
 
 **Key features:**
 

@@ -4,7 +4,7 @@ Project to monitor (and improve) plant growth with a Raspberry Pi, using Pimoron
 
 **Key features:**
 
-Writes sensor data (like brightness, lightcolor, heading, temperature, pressure, moisture, etc.) to a database and captures timelapse of plant growth. 
+Writes sensor data (like brightness, light color, heading, temperature, pressure, moisture, etc.) to a database and captures timelapse of plant growth. 
 
 Displays sensor data in webinterface (unfinished, feel free to contribute).
 
